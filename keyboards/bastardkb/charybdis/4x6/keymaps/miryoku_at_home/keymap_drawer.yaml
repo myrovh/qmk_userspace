@@ -1,0 +1,124 @@
+layout: {qmk_keyboard: bastardkb/charybdis/4x6, qmk_layout: LAYOUT}
+layers:
+  BASE:
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - ''
+  - ''
+  - {t: A, h: LGUI}
+  - {t: S, h: LALT}
+  - {t: D, h: LCTL}
+  - {t: F, h: LSFT}
+  - G
+  - H
+  - {t: J, h: LSFT}
+  - {t: K, h: LCTL}
+  - {t: L, h: LALT}
+  - {t: '''', h: LGUI}
+  - ''
+  - ''
+  - {t: Z, h: MOUSE}
+  - {t: X, h: ALGR}
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - {t: ., h: ALGR}
+  - {t: SLSH, h: MOUSE}
+  - ''
+  - ''
+  - ESC
+  - LT(LY NAV,SPC)
+  - LT(LY NUM,BSPC)
+  - LT(LY FUN,DEL)
+  - ''
+  - TAB
+  - LT(LY SYM,ENT)
+  NAV: ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', Ctl+ Y, Ctl+ V, Ctl+ C, Ctl+ X, Ctl+ Z, '', '', LGUI, LALT, LCTL, LSFT, '', LEFT, DOWN,
+    UP, RGHT, CW TOGG, '', '', '', ALGR, '', '', '', HOME, PGDN, PGUP, END, INS, '', '', '', '', BSPC, DEL, '', '', ENT]
+  NUM: ['', '', '', '', '', '', '', '', '', '', '', '', '', '[', '7', '8', '9', ']', '', '', '', '', '', '', '', ;, '4', '5', '6', '=', '', LSFT, LCTL, LALT, LGUI,
+    '', '', '`', '1', '2', '3', \, '', '', '', ALGR, '', '', '', ., '0', '', '', '', '-', '']
+  SYM: ['', '', '', '', '', '', '', '', '', '', '', '', '', '{', '&', '*', (, '}', '', '', '', '', '', '', '', ':', $, '%', ^, +, '', LSFT, LCTL, LALT, LGUI, '', '',
+    '~', '!', '@', '#', '|', '', '', '', ALGR, '', '', '', (, ), '', '', '', _, '']
+  FUN: ['', '', '', '', '', '', '', '', '', '', '', '', '', F12, F7, F8, F9, PSCR, '', '', '', '', '', '', '', F11, F4, F5, F6, SCRL, '', LSFT, LCTL, LALT, LGUI, '',
+    '', F10, F1, F2, F3, PAUS, '', '', '', ALGR, '', '', '', APP, SPC, '', '', '', TAB, '']
+  MOUSE:
+  - QK BOOT
+  - EE CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - QK BOOT
+  - EE CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LGUI
+  - LALT
+  - LCTL
+  - LSFT
+  - ''
+  - ''
+  - RSFT
+  - RCTL
+  - RALT
+  - RGUI
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - BTN2
+  - BTN1
+  - BTN3
+  - BTN3
+  - BTN1
+  - ''
+  - BTN2
+  - BTN2
