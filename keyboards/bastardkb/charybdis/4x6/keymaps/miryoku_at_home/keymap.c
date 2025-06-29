@@ -125,7 +125,7 @@ XXX, KC_F10      , KC_F1       , KC_F2       , KC_F3       ,KC_PAUS, XXX    , XX
        XXXXXXX, XXXXXXX, DRGSCRL, SNIPING, XXXXXXX, XXXXXXX,    XXXXXXX, XXXXXXX, SNIPING, DRGSCRL, XXXXXXX, XXXXXXX,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
                                   KC_BTN2, KC_BTN1, KC_BTN3,    KC_BTN3, KC_BTN1,
-                                  DRG_TOG, KC_BTN2,    KC_BTN2
+                                           DRG_TOG, KC_BTN2,    KC_BTN2
   //                            ╰───────────────────────────╯ ╰──────────────────╯
   ),
 };
